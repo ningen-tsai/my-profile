@@ -1,0 +1,104 @@
+.img-circle{
+	border-radius: 200px;
+	box-shadow:2px 2px 3px gray;
+	width:250px;
+}
+
+#introduction{
+	background-image:url("images/california.jpg");
+	background-size: cover;
+}
+#Taiwan{
+	background-image:url("images/taiwan.jpg");
+	background-size: cover;
+}
+#sports{
+	background-image:url("images/swimming pool.jpg");
+	background-size: cover;
+}
+#photography{
+	background-image:url("images/photography.jpg");
+	background-size: cover;
+}
+
+body{
+	background-color: white;
+	color: white; 
+	font-family:'Slabo 27px', serif;
+	text-justify:center;
+	font-size:20px;
+}
+
+h1{
+	color: black;	
+	font-weight:bold;
+	letter-spacing:0px;
+	font-size:50px; 
+	font-family: 'Satisfy', cursive;
+	text-justify:center;
+	font-weight: lighter;
+}
+
+h2{
+	color:#2D2D2D;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Satisfy', cursive;
+}
+
+a{
+	text-decoration: none;
+	color:#3D3D3D;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+div{
+	margin: 40px 50px;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+.container{
+	width:700px;
+	margin:40px auto;
+}
+
+.btn-pink{
+	background-color:#EAADAD;
+	color:white;
+	padding:15px 20px;
+	border-radius:9px;
+}
+
+.card-white{
+	background-color:#A3C2CE;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(50,50,93,.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align:center;
+}
+
+.list-inline li{
+	display:inline;
+	padding: 0px 20px;
+}
+
+.list-inline i{
+	font-size:60px
+}
